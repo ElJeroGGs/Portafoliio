@@ -1,0 +1,12 @@
+[
+  {
+    "id": "project-1",
+    "title": "Proyecto Ejemplo",
+    "description": "Descripción corta del proyecto",
+    "longDescription": "Descripción detallada de qué hiciste, tecnologías utilizadas y resultados",
+    "technologies": ["React", "Node.js", "MongoDB"],
+    "featured": true,
+    "github": "https://github.com/tuusuario/proyecto",
+    "demo": "https://proyecto-demo.com"
+  }
+]

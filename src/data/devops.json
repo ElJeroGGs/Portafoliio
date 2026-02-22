@@ -1,0 +1,23 @@
+[
+  {
+    "id": "homelab-1",
+    "name": "Servidor Media Center",
+    "description": "Sistema de servidor multimedia con Plex y Jellyfin",
+    "technologies": ["Docker", "Plex", "Jellyfin", "Linux"],
+    "status": "active"
+  },
+  {
+    "id": "homelab-2",
+    "name": "CI/CD Pipeline",
+    "description": "Pipeline automatizado para deploy de aplicaciones",
+    "technologies": ["GitHub Actions", "Docker", "Docker Compose", "Linux"],
+    "status": "active"
+  },
+  {
+    "id": "homelab-3",
+    "name": "Monitoring Stack",
+    "description": "Stack de monitoreo con Prometheus y Grafana",
+    "technologies": ["Prometheus", "Grafana", "AlertManager", "Docker"],
+    "status": "planned"
+  }
+]

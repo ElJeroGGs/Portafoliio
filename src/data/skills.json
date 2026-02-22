@@ -1,0 +1,18 @@
+[
+  {
+    "category": "Frontend",
+    "skills": ["React", "TypeScript", "Tailwind CSS", "Next.js"]
+  },
+  {
+    "category": "Backend",
+    "skills": ["Node.js", "Express", "Python", "PostgreSQL"]
+  },
+  {
+    "category": "DevOps",
+    "skills": ["Docker", "Kubernetes", "GitHub Actions", "CI/CD"]
+  },
+  {
+    "category": "Herramientas",
+    "skills": ["Git", "VS Code", "Linux", "Bash"]
+  }
+]
