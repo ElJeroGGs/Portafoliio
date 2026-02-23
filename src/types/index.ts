@@ -1,3 +1,8 @@
+export interface ProjectLink {
+  label: string;
+  url: string;
+}
+
 export interface Project {
   id: string;
   title: string;
@@ -5,8 +10,7 @@ export interface Project {
   longDescription?: string;
   image?: string;
   technologies: string[];
-  github?: string;
-  demo?: string;
+  links?: ProjectLink[];
   featured: boolean;
 }
 

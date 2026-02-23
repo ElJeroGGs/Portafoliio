@@ -1,18 +1,23 @@
 [
+  
   {
-    "category": "Frontend",
-    "skills": ["React", "TypeScript", "Tailwind CSS", "Next.js"]
+    "category": "Lenguajes de Programación",
+    "skills": ["Python", "Java"]
   },
   {
-    "category": "Backend",
-    "skills": ["Node.js", "Express", "Python", "PostgreSQL"]
+    "category": "Bases de Datos",
+    "skills": ["Oracle", "Postgresql"]
   },
   {
-    "category": "DevOps",
-    "skills": ["Docker", "Kubernetes", "GitHub Actions", "CI/CD"]
+    "category": "Redes",
+    "skills": ["Cloudflare", "Pi-hole", "Tailscale"]
   },
   {
-    "category": "Herramientas",
-    "skills": ["Git", "VS Code", "Linux", "Bash"]
+    "category": "Herramientas de Desarrollo",
+    "skills": ["Git", "Github", "Gitea", "Neovim", "Visual Studio Code", "Docker"]
+  },
+  {
+    "category": "Soft Skills (Liderazgo)",
+    "skills": ["Gestión de proyectos", "Dirección estratégica", "Comunicación asertiva", "Oratoria", "Resolución de problemas", "Trabajo en equipo"]
   }
 ]

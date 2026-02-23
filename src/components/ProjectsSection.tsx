@@ -103,31 +103,24 @@ export const ProjectsSection: React.FC = () => {
                     ))}
                   </div>
 
-                  <div className="flex gap-4">
-                    {project.github && (
+                  <div className="flex gap-4 flex-wrap">
+                    {project.links?.map((link, linkIndex) => (
                       <motion.a
-                        whileHover={{ scale: 1.1, rotate: -2 }}
+                        key={linkIndex}
+                        whileHover={{ scale: 1.1, rotate: linkIndex % 2 === 0 ? -2 : 2 }}
                         whileTap={{ scale: 0.95 }}
-                        href={project.github}
+                        href={link.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="p5-btn px-6 py-3 text-lg"
+                        className={`px-6 py-3 text-lg ${
+                          linkIndex % 2 === 0 
+                            ? "p5-btn" 
+                            : "font-black uppercase tracking-widest border-4 border-text text-text bg-transparent p5-clip-path-alt p5-skew-reverse transition-all hover:bg-text hover:text-primary p5-shadow-white"
+                        }`}
                       >
-                        GitHub
+                        {link.label}
                       </motion.a>
-                    )}
-                    {project.demo && (
-                      <motion.a
-                        whileHover={{ scale: 1.1, rotate: 2 }}
-                        whileTap={{ scale: 0.95 }}
-                        href={project.demo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="px-6 py-3 text-lg font-black uppercase tracking-widest border-4 border-text text-text bg-transparent p5-clip-path-alt p5-skew-reverse transition-all hover:bg-text hover:text-primary p5-shadow-white"
-                      >
-                        Demo
-                      </motion.a>
-                    )}
+                    ))}
                   </div>
                 </motion.div>
               ))}
@@ -171,31 +164,24 @@ export const ProjectsSection: React.FC = () => {
                   </span>
                 )}
               </div>
-              <div className="flex gap-3 mt-auto">
-                {project.github && (
+              <div className="flex gap-3 mt-auto flex-wrap">
+                {project.links?.map((link, linkIndex) => (
                   <motion.a
+                    key={linkIndex}
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
-                    href={project.github}
+                    href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p5-btn px-4 py-2 text-sm"
+                    className={`px-4 py-2 text-sm ${
+                      linkIndex % 2 === 0
+                        ? "p5-btn"
+                        : "font-black uppercase tracking-widest border-2 border-text text-text bg-transparent p5-clip-path-alt p5-skew-reverse transition-all hover:bg-text hover:text-primary"
+                    }`}
                   >
-                    GitHub
+                    {link.label}
                   </motion.a>
-                )}
-                {project.demo && (
-                  <motion.a
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.95 }}
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-4 py-2 text-sm font-black uppercase tracking-widest border-2 border-text text-text bg-transparent p5-clip-path-alt p5-skew-reverse transition-all hover:bg-text hover:text-primary"
-                  >
-                    Demo
-                  </motion.a>
-                )}
+                ))}
               </div>
             </motion.div>
           ))}

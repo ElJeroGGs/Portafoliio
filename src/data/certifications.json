@@ -1,9 +1,9 @@
 [
   {
     "id": "cert-1",
-    "title": "Certificación de Ejemplo",
-    "issuer": "Nombre de la plataforma",
-    "date": "2026-02",
-    "credentialUrl": "https://ejemplo.com/certificado"
+    "title": "IEEEXtreme Certificate",
+    "issuer": "IEEE",
+    "date": "2024",
+    "credentialUrl": "https://certificate.ieeextreme.org/generate-email-certificate/Egn95k8skk7cjQ"
   }
 ]

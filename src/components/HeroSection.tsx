@@ -53,7 +53,7 @@ export const HeroSection: React.FC = () => {
         <motion.div variants={itemVariants} className="relative inline-block mb-6">
           <div className="absolute inset-0 bg-text p5-clip-path p5-skew translate-x-2 translate-y-2 -z-10"></div>
           <h1 className="text-6xl md:text-8xl font-black p5-title-black bg-accent text-primary p-4 p5-clip-path p5-skew inline-block border-4 border-primary">
-            Ingeniero de Software
+            José Mercado 
           </h1>
         </motion.div>
 
@@ -66,15 +66,14 @@ export const HeroSection: React.FC = () => {
         {/* Subtítulo */}
         <motion.div variants={itemVariants} className="mb-8 inline-block">
           <p className="text-xl md:text-3xl font-bold bg-primary text-text p-3 p5-clip-path-alt p5-skew-reverse border-2 border-accent p5-shadow">
-            Especializado en DevOps, Full-Stack Development y Homelab
+            Ingeniero en Computación 
           </p>
         </motion.div>
 
         {/* Descripción */}
         <motion.div variants={itemVariants} className="mb-12 max-w-3xl mx-auto">
           <p className="text-lg md:text-xl font-bold bg-background-alt text-text-alt p-6 p5-card p5-shadow">
-            Apasionado por crear soluciones robustas, escalables y eficientes. Con experiencia en todo el stack
-            de desarrollo y la configuración de infraestructura moderna.
+            Apasionado por la informática desde la infancia, con la convicción de que en la computación siempre hay algo nuevo que aprender. Con experiencia probada liderando comunidades tecnológicas y gestionando infraestructura compleja de manera autodidacta.
           </p>
         </motion.div>
 

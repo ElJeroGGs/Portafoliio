@@ -1,12 +1,32 @@
 [
   {
-    "id": "project-1",
-    "title": "Proyecto Ejemplo",
-    "description": "Descripción corta del proyecto",
-    "longDescription": "Descripción detallada de qué hiciste, tecnologías utilizadas y resultados",
-    "technologies": ["React", "Node.js", "MongoDB"],
+    "id": "homelab",
+    "title": "Homelab Personal",
+    "description": "Servidor basado en Arch Linux sobre hardware reciclado.",
+    "longDescription": "Infraestructura completa autoalojada. Seguridad y Red: Pi-hole para bloqueo de publicidad y Tailscale para VPN. Gestión de Datos: Samba para almacenamiento en red, Vaultwarden para gestión de contraseñas y Duplicati para backups. Desarrollo: Instancia propia de Gitea para control de versiones. Monitoreo: Panel de Grafana alimentado por Prometheus para métricas de hardware en tiempo real. PDF: BentoPDF para gestión de archivos PDF.",
+    "technologies": ["Arch Linux", "Pi-hole", "Tailscale", "Samba", "Vaultwarden", "Duplicati", "Gitea", "Grafana", "Prometheus", "BentoPDF"],
     "featured": true,
-    "github": "https://github.com/tuusuario/proyecto",
-    "demo": "https://proyecto-demo.com"
+    "links": [
+      { "label": "Gitea", "url": "https://git.jerogg.dev" },
+      { "label": "BentoPDF", "url": "https://pdf.jerogg.dev" }
+    ]
+  },
+  {
+    "id": "ieeextreme",
+    "title": "Organización de IEEEXtreme (2024 - 2025)",
+    "description": "Organizador Principal del concurso de programación competitiva a nivel global.",
+    "longDescription": "Lideré la planificación y ejecución del concurso de programación competitiva dentro de mi universidad por dos años consecutivos. Coordiné la logística técnica y de espacios, además de promover el prestigio de la ingeniería en la universidad.",
+    "technologies": ["Liderazgo", "Gestión de Proyectos", "Logística", "Comunicación"],
+    "featured": true,
+    "links": []
+  },
+  {
+    "id": "ieee-computer-society",
+    "title": "Liderazgo en de capítulo estudiantil IEEE Computer Society",
+    "description": "Presidente de Capítulo (2024-2025).",
+    "longDescription": "Representación ante la facultad y fomento de actividades académicas para fortalecer la comunidad estudiantil.",
+    "technologies": ["Liderazgo", "Representación Estudiantil", "Organización de Eventos"],
+    "featured": true,
+    "links": []
   }
 ]

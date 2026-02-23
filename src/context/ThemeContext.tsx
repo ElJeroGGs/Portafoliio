@@ -19,16 +19,14 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({
 
   useEffect(() => {
     setIsMounted(true);
-    // Cargar tema del localStorage
-    const savedTheme = localStorage.getItem("portfolio-theme") || DEFAULT_THEME;
-    setCurrentThemeState(savedTheme);
-    document.documentElement.setAttribute("data-theme", savedTheme);
+    // Forzar el tema por defecto (persona)
+    setCurrentThemeState(DEFAULT_THEME);
+    document.documentElement.setAttribute("data-theme", DEFAULT_THEME);
   }, []);
 
   const setTheme = (theme: string) => {
     if (Object.keys(THEMES).includes(theme)) {
       setCurrentThemeState(theme);
-      localStorage.setItem("portfolio-theme", theme);
       document.documentElement.setAttribute("data-theme", theme);
     }
   };

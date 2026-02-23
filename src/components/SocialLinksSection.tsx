@@ -89,8 +89,7 @@ export const SocialLinksSection: React.FC = () => {
             </h2>
           </div>
           <p className="text-center text-text-alt max-w-2xl mx-auto font-bold text-xl bg-primary p-6 p5-card p5-shadow">
-            Sígueme en mis redes sociales o contáctame directamente. Estoy abierto a colaboraciones,
-            preguntas y oportunidades.
+            Contactame a través de mis redes sociales. ¡Estoy abierto a nuevas oportunidades y colaboraciones!
           </p>
           <motion.div
             initial={{ width: 0 }}

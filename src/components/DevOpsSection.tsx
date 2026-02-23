@@ -57,8 +57,8 @@ export const DevOpsSection: React.FC = () => {
             </h2>
           </div>
           <p className="text-center text-text-alt max-w-3xl mx-auto mb-8 font-bold text-xl bg-primary p-6 p5-card p5-shadow">
-            Proyectos y configuraciones que he implementado en mi homelab durante los últimos 6 meses,
-            demostrando experiencia en infraestructura, containerización y CI/CD.
+            Proyectos y configuraciones que he implementado en mi homelab,
+            demostrando experiencia en infraestructura, contenerización y CI/CD.
           </p>
           <motion.div
             initial={{ width: 0 }}

@@ -1,23 +1,79 @@
 [
   {
-    "id": "homelab-1",
-    "name": "Servidor Media Center",
-    "description": "Sistema de servidor multimedia con Plex y Jellyfin",
-    "technologies": ["Docker", "Plex", "Jellyfin", "Linux"],
+    "id": "1",
+    "name": "Gitea",
+    "description": "Servidor de control de versiones Git autoalojado para gestión de proyectos personales y dotfiles.",
+    "technologies": ["Gitea", "Git", "Linux", "Docker"],
     "status": "active"
   },
   {
-    "id": "homelab-2",
-    "name": "CI/CD Pipeline",
-    "description": "Pipeline automatizado para deploy de aplicaciones",
-    "technologies": ["GitHub Actions", "Docker", "Docker Compose", "Linux"],
+    "id": "2",
+    "name": "Samba Share",
+    "description": "Servidor de archivos en red (NAS) para el intercambio de datos entre dispositivos de la red local.",
+    "technologies": ["Samba", "Linux", "SMB/CIFS"],
     "status": "active"
   },
   {
-    "id": "homelab-3",
-    "name": "Monitoring Stack",
-    "description": "Stack de monitoreo con Prometheus y Grafana",
-    "technologies": ["Prometheus", "Grafana", "AlertManager", "Docker"],
-    "status": "planned"
+    "id": "3",
+    "name": "Vaultwarden",
+    "description": "Gestor de contraseñas seguro y autoalojado, compatible con la API de Bitwarden.",
+    "technologies": ["Vaultwarden", "Rust", "Docker", "Linux"],
+    "status": "active"
+  },
+  {
+    "id": "4",
+    "name": "Pi-hole",
+    "description": "Sumidero DNS para el bloqueo de publicidad y rastreadores a nivel de toda la red.",
+    "technologies": ["Pi-hole", "DNS", "Linux"],
+    "status": "active"
+  },
+  {
+    "id": "5",
+    "name": "Nginx Reverse Proxy",
+    "description": "Servidor web y proxy inverso para la gestión de dominios y certificados SSL de los servicios internos.",
+    "technologies": ["Nginx", "SSL/TLS", "Linux"],
+    "status": "active"
+  },
+  {
+    "id": "6",
+    "name": "Tailscale VPN",
+    "description": "Red privada virtual (VPN) de configuración cero para acceso remoto seguro al servidor.",
+    "technologies": ["Tailscale", "WireGuard", "Networking"],
+    "status": "active"
+  },
+  {
+    "id": "7",
+    "name": "WhatsApp Automation Bot",
+    "description": "Bot personalizado para el envío automático y programado de mensajes a través de WhatsApp.",
+    "technologies": ["Node.js/Python", "API", "Linux"],
+    "status": "active"
+  },
+  {
+    "id": "8",
+    "name": "Duplicati",
+    "description": "Sistema de copias de seguridad incrementales y cifradas para la protección de datos críticos.",
+    "technologies": ["Duplicati", "Backup", "Linux"],
+    "status": "active"
+  },
+  {
+    "id": "9",
+    "name": "Syncthing",
+    "description": "Servicio de sincronización de archivos continua y descentralizada entre múltiples dispositivos.",
+    "technologies": ["Syncthing", "P2P", "Linux"],
+    "status": "active"
+  },
+  {
+    "id": "10",
+    "name": "Memos (Neosmemo)",
+    "description": "Centro de notas ligero con enfoque en la privacidad y estilo de micro-blogging.",
+    "technologies": ["Memos", "Docker", "Linux"],
+    "status": "active"
+  },
+  {
+    "id": "11",
+    "name": "BentoPDF",
+    "description": "Gestor y lector de bibliotecas digitales especializado en documentos PDF.",
+    "technologies": ["BentoPDF", "Docker", "Web"],
+    "status": "active"
   }
 ]

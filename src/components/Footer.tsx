@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
           className="text-center"
         >
           <div className="inline-block bg-text text-primary font-black px-6 py-2 p5-clip-path p5-skew mb-6 border-2 border-primary">
-            © {currentYear} LALO. ALL RIGHTS RESERVED.
+            © {currentYear} José Mercado. ALL RIGHTS RESERVED.
           </div>
           <p className="text-sm text-text-alt font-bold uppercase tracking-widest">
             Construido con <span className="text-accent bg-primary px-2 py-1 p5-clip-path-alt">Next.js</span>, 
