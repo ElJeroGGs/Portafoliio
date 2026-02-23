@@ -6,6 +6,6 @@ services:
     container_name: lalo-portfolio
     restart: unless-stopped
     ports:
-      - "3005:3000"
+      - "3010:3000" # Izquierda: Puerto en tu homelab (host) | Derecha: Puerto dentro del contenedor
     environment:
       - NODE_ENV=production
